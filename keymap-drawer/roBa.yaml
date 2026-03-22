@@ -22,8 +22,8 @@ layers:
   - J
   - K
   - L
-  - {t: "[", h: NUM}
-  - {t: Z, h: SHIFT}
+  - {t: 'Sft+[', h: NUM}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -32,18 +32,18 @@ layers:
   - BACKSPACE
   - N
   - M
-  - ','
-  - .
-  - {t: /, h: ARROW}
-  - CTRL
-  - WIN
-  - ALT
-  - {t: '変換', h: BT}
+  - Sft+,
+  - Sft+.
+  - {t: 'Sft+]', h: ARROW}
+  - LCTRL
+  - LEFT WIN
+  - LEFT ALT
+  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
   - {t: SPACE, h: NUM}
-  - {t: '半角全角', h: MOUSE}
+  - {t: '&to_layer_0 INT_MUHENKAN', h: MOUSE}
   - ENTER
-  - ENTER
-  - {t: "-", h:SCROOL}
+  - ''
+  - {t: Sft+-, h: SCROLL}
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,7 +77,7 @@ layers:
   - F3
   - {t: ▽, type: trans}
   - F11
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -95,33 +95,33 @@ layers:
   - $
   - '%'
   - '&'
-  - '''
+  - ''''
   - (
   - )
   - {t: ▽, type: trans}
   - /
-  - '+'
+  - +
   - '*'
   - '='
-  - '\'
-  - {t: , h: NON}
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
+  - Sft+\
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {type: held}
-  - {t: '^', h: SHIFT}
-  - ';'
+  - {t: ^, h: LEFT SHIFT}
+  - ;
   - ':'
   - '?'
   - .
   - {t: ▽, type: trans}
-  - 6
-  - 7
-  - 8
-  - 9
-  - 0
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,10 +133,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
-  - ESC
+  - ESCAPE
   - TAB
   - UP ARROW
-  - ALT+TAB
+  - Alt+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,8 +154,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - SHIFT
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
   - Gui+Sft+RIGHT ARROW
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,44 +182,44 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -263,7 +263,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
