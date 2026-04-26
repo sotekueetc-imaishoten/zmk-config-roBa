@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: roBa}
 layers:
   default:
-  - Q
+  - {t: Q, h: FUNCTION}
   - W
   - E
   - R
@@ -11,12 +11,12 @@ layers:
   - I
   - O
   - {t: P, h: FUNCTION}
-  - A
+  - {t: A, h: NUM}
   - S
   - D
   - F
   - G
-  - Sft+Gui+S
+  - ;
   - DEL
   - H
   - J
@@ -40,39 +40,39 @@ layers:
   - LEFT ALT
   - TAB
   - SPACE
-  - {t: '&to_layer_0 INT_HENKAN', h: MOUSE}
+  - {t: INT HENKAN, h: MOUSE}
   - ENTER
   - '-'
   - {t: Sft+Gui+S, h: '6'}
   FUNCTION:
-  - '!'
+  - {t: '!', type: held}
   - '"'
   - ''''
-  - HOME
-  - Ctl+HOME
+  - ^
+  - '|'
   - F5
   - F7
   - F8
   - F9
-  - {type: held}
+  - {t: ▽, type: trans}
   - '#'
   - $
   - ':'
-  - END
-  - Ctl+END
+  - \
   - {t: ▽, type: trans}
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - F2
   - F4
   - F10
   - F12
   - {t: ▽, type: trans}
-  - {t: '%', h: LEFT SHIFT}
+  - '%'
   - '&'
   - ;
   - '?'
-  - ^
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
   - F3
@@ -89,39 +89,39 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - /
-  - '-'
-  - '='
-  - +
   - '*'
-  - ''
   - {t: ▽, type: trans}
+  - Sft+Ctl+HOME
+  - Ctl+Sft+END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '-', type: held}
   - '4'
   - '5'
   - '6'
-  - (
-  - {type: held}
+  - +
+  - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+HOME
+  - HOME
+  - PAGE UP
+  - Ctl+PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
-  - )
+  - '0'
+  - ':'
+  - {t: ▽, type: trans}
+  - Ctl+END
+  - END
+  - PAGE DOWN
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,7 +133,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
-  - ESCAPE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
@@ -189,8 +189,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SCROLL UP
+  - SCROLL DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -286,7 +286,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -298,7 +298,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,4 +307,4 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT CLR ALL, type: held}
+  - {type: held}
