@@ -69,6 +69,7 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V    &kp B      &kp AT_SIGN           &kp BACKSPACE  &kp N      &kp M  &kp COMMA  &kp PERIOD  &lt 3 RIGHT_BRACKET
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp TAB  &kp SPACE  &lt 4 INT_HENKAN      &kp ENTER      &kp MINUS                                &lt 6 LS(LG(S))
             >;
+
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
@@ -103,19 +104,19 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &none  &none     &none     &none     &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none  &mkp MB1  &mkp MB3  &mkp MB2  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none  &none     &none     &none     &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                                &none
+&trans  &trans              &trans                &trans  &trans                     &none  &none     &none     &none     &none
+&trans  &kp C_AC_SCROLL_UP  &kp C_AC_SCROLL_DOWN  &trans  &trans  &trans      &none  &none  &mkp MB1  &mkp MB3  &mkp MB2  &none
+&trans  &trans              &trans                &trans  &trans  &trans      &none  &none  &none     &none     &none     &none
+&trans  &trans              &trans                &trans  &trans  &trans      &none  &none                                &none
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans                &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp C_AC_SCROLL_DOWN  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans                &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans                &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
