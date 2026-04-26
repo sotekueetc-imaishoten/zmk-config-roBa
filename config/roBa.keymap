@@ -54,28 +54,28 @@
         default_layer {
             bindings = <
 &lt 1 Q           &kp W         &kp E         &kp R    &kp T                                           &kp Y      &kp U  &kp I      &kp O       &lt 1 P
-&lt 2 A           &kp S         &kp D         &kp F    &kp G      &kp SEMI              &kp DEL        &kp H      &kp J  &kp K      &kp L       &lt 2 LEFT_BRACKET
+&lt 2 A           &kp S         &kp D         &kp F    &kp G      &trans                &kp DEL        &kp H      &kp J  &kp K      &kp L       &lt 2 LEFT_BRACKET
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V    &kp B      &kp AT_SIGN           &kp BACKSPACE  &kp N      &kp M  &kp COMMA  &kp PERIOD  &lt 3 RIGHT_BRACKET
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp TAB  &kp SPACE  &lt 4 INT_HENKAN      &kp ENTER      &kp MINUS                                &lt 6 LS(LG(S))
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp SQT        &kp CARET             &kp PIPE                            &kp F5  &kp F7  &kp F8   &kp F9   &trans
-&kp HASH         &kp DOLLAR         &kp COLON      &kp NON_US_BACKSLASH  &trans    &kp CAPSLOCK      &trans  &kp F2  &kp F4  &kp F10  &kp F12  &trans
-&kp PERCENT      &kp AMPERSAND      &kp SEMICOLON  &kp QUESTION          &trans    &trans            &trans  &kp F1  &kp F3  &kp F6   &kp F11  &trans
+&kp HASH         &kp DOLLAR         &kp COLON      &kp NON_US_BACKSLASH  &trans    &trans            &trans  &kp F2  &kp F4  &kp F10  &kp F12  &trans
+&kp PERCENT      &kp AMPERSAND      &kp SEMICOLON  &kp QUESTION          &trans    &kp CAPSLOCK      &trans  &kp F1  &kp F3  &kp F6   &kp F11  &trans
 &trans           &trans             &trans         &trans                &trans    &trans            &trans  &trans                            &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp SLASH  &kp N7        &kp N8        &kp N9        &kp ASTERISK                         &trans        &kp LS(LC(HOME))  &kp LC(LS(END))  &trans             &trans
-&kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &kp EQUAL      &trans  &kp LC(HOME)  &kp HOME          &kp PAGE_UP      &kp LC(PAGE_UP)    &trans
-&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp COLON      &trans  &kp LC(END)   &kp END           &kp PAGE_DOWN    &kp LC(PAGE_DOWN)  &trans
+&kp SLASH  &kp N7        &kp N8        &kp N9        &kp ASTERISK                         &kp COLON     &kp LS(LC(HOME))  &kp LC(LS(END))  &trans             &trans
+&kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &trans         &trans  &kp LC(HOME)  &kp HOME          &kp PAGE_UP      &kp LC(PAGE_UP)    &trans
+&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp EQUAL      &trans  &kp LC(END)   &kp END           &kp PAGE_DOWN    &kp LC(PAGE_DOWN)  &trans
 &trans     &trans        &trans        &trans        &trans        &trans         &trans  &trans                                                              &trans
             >;
         };
@@ -93,10 +93,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans           &trans             &trans                     &none  &none     &none     &none     &none
-&trans  &trans  &kp K_SCROLL_UP  &kp K_SCROLL_DOWN  &trans  &trans      &none  &none  &mkp MB1  &mkp MB3  &mkp MB2  &none
-&trans  &trans  &trans           &trans             &trans  &trans      &none  &none  &none     &none     &none     &none
-&trans  &trans  &trans           &trans             &trans  &trans      &none  &none                                &none
+&trans  &trans  &trans  &trans  &trans                     &none  &none     &none     &none     &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none  &mkp MB1  &mkp MB3  &mkp MB2  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none  &none     &none     &none     &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                                &none
             >;
         };
 
