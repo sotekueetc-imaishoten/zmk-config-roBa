@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: roBa}
 layers:
   default:
-  - {t: Q, h: FUNCTION}
+  - Q
   - W
   - E
   - R
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - {t: P, h: FUNCTION}
-  - {t: A, h: NUM}
+  - A
   - S
   - D
   - F
@@ -45,7 +45,7 @@ layers:
   - '-'
   - {t: Sft+Gui+S, h: '6'}
   FUNCTION:
-  - {t: '!', type: held}
+  - '!'
   - '"'
   - ''''
   - ^
@@ -54,7 +54,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: ▽, type: trans}
+  - {type: held}
   - '#'
   - $
   - ':'
@@ -99,7 +99,7 @@ layers:
   - Ctl+Sft+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '-', type: held}
+  - '-'
   - '4'
   - '5'
   - '6'
@@ -110,7 +110,7 @@ layers:
   - HOME
   - PAGE UP
   - Ctl+PAGE UP
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '1'
   - '2'
