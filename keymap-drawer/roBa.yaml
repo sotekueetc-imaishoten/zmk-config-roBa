@@ -94,9 +94,9 @@ layers:
   - '8'
   - '9'
   - '*'
-  - ':'
-  - Sft+Ctl+HOME
-  - Ctl+Sft+END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -106,10 +106,10 @@ layers:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+HOME
-  - HOME
-  - PAGE UP
-  - Ctl+PAGE UP
+  - ':'
+  - .
+  - (
+  - )
   - {type: held}
   - {t: ▽, type: trans}
   - '1'
@@ -118,10 +118,10 @@ layers:
   - '0'
   - '='
   - {t: ▽, type: trans}
-  - Ctl+END
-  - END
-  - PAGE DOWN
-  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,15 +133,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
-  - {t: ▽, type: trans}
+  - ESCAPE
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ESC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+PAGE UP
+  - PAGE UP
+  - PAGE DOWN
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -150,6 +150,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+HOME
+  - HOME
+  - Ctl+Sft+HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,12 +162,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+END
+  - END
+  - Ctl+Sft+END
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
